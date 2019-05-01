@@ -1,0 +1,30 @@
+.main-div{
+  min-height : 100vh;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      
+}
+.main-form{
+  min-height : 10vh;
+  display : flex;
+  justify-content : center;  
+  align-items: center;    
+}
+.not-found{
+  min-height : 10vh;
+  display : flex;
+  justify-content : center;  
+  align-items: center;   
+}
+
+.weather-div p{
+  display : flex;
+  justify-content : center;
+  flex-direction : row wrap;    
+}
+
+.centered{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
